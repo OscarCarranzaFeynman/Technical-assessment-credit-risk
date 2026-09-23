@@ -1,0 +1,19 @@
+[project]
+name = "technical-assessment-credit-risk"
+version = "0.1.0"
+description = "Credit risk analysis using exploratory data analysis and machine learning."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ipykernel>=6.29",
+    "jupyterlab>=4.2",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+    "openpyxl>=3.1",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "seaborn>=0.13",
+]
+
+[tool.uv]
+package = false
